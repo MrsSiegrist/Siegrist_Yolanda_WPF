@@ -4,7 +4,22 @@
 
 <script type="text/javascript">
 // Yolanda Siegrist 8/28/13
-// Functions Assignment - Industry
+// Functions Assignment - Industry 
+function myFunc(theObject)  
+{    
+  theObject.brand = "Toyota";  
+}    
+var mycar = {   
+brand: "Honda",  
+model: "Accord",   
+year: 2005 
+};  
+ 
+console.log(mycar.brand);
+myFunc(mycar);   
+console.log(mycar.brand);
+
+</script>
 
 </body>
 </html>
