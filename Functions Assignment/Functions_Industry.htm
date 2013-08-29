@@ -5,19 +5,19 @@
 <script type="text/javascript">
 // Yolanda Siegrist 8/28/13
 // Functions Assignment - Industry 
-function myFunc(theObject)  
+function myFunc(theObject)  // Declare the function 'myFunc'
 {    
   theObject.brand = "Toyota";  
 }    
-var mycar = {   
-brand: "Honda",  
-model: "Accord",   
+var myCar = {  // Declare variable 'myCar'
+brand: "Honda",  // Create and initialize a new Object
+model: "Accord",  // Assign reference to it to 'myCar'
 year: 2005 
 };  
  
-console.log(mycar.brand);
-myFunc(mycar);   
-console.log(mycar.brand);
+console.log(myCar.brand);  // Shows 'Honda'
+myFunc(myCar);  // Pass object reference to the function  
+console.log(myCar.brand);  // Shows 'Toyota' as the value of the 'brand' property
 
 </script>
 
